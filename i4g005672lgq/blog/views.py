@@ -32,5 +32,7 @@ class PostUpdateView(UpdateView):
 
 class PostDeleteView(DeleteView):
     model=Post
+    fieds = "__all__"
+    success_url = reverse_lazy("blog:all")
    
 
