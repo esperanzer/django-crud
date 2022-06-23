@@ -8,7 +8,7 @@ from django.views.generic.detail import DetailView
 from django.views.generic.edit import UpdateView
 from django.views.generic.edit import DeleteView
 # Create your views here.
-
+# my sweet views
 class PostListView(ListView):
     model=Post
 
